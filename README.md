@@ -40,7 +40,7 @@ Java classes for retrieving and analyzing constants from CCDB.
  28 can.draw(gr3);
 ```
 
-The printout of this code will be:
+The printout of this code will be something like:
 
 ```tcsh
 ENVIRONMENT : /Users/harrison/coatjava-2.4/bin/.. null null null
@@ -58,5 +58,6 @@ Returning to default address: mysql://clas12reader@clasdb.jlab.org/clas12
 50.0
 ```
 
-and you should get the following plots:
+and you should get three plots similar to these:
 
+<img src="https://github.com/naharrison/CCDBtools3/blob/master/images/ccdbToolsExamplePlots.png" width="800">
