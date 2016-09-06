@@ -39,3 +39,24 @@ Java classes for retrieving and analyzing constants from CCDB.
  27 can.cd(2);
  28 can.draw(gr3);
 ```
+
+The printout of this code will be:
+
+```tcsh
+ENVIRONMENT : /Users/harrison/coatjava-2.4/bin/.. null null null
+DB address not defined in your environment.
+Returning to default address: mysql://clas12reader@clasdb.jlab.org/clas12
+1   1.25e-4   0.05   25.0e-4   0.15   0.0   
+2   1.25e-4   0.05   25.0e-4   0.15   0.0   
+3   1.25e-4   0.05   25.0e-4   0.15   0.0   
+4   1.25e-4   0.05   25.0e-4   0.15   0.0   
+5   1.25e-4   0.05   25.0e-4   0.15   0.0   
+6   1.25e-4   0.05   25.0e-4   0.15   0.0   
+50.0
+50.0
+50.0
+50.0
+```
+
+and you should get the following plots:
+
